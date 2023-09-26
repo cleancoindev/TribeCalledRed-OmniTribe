@@ -3,10 +3,10 @@ import streamlit as st
 from PIL import Image
 
 # Confit
-st.set_page_config(page_title='7 Mountain Trust Cross Chain Monitoring Tool', page_icon=':bar_chart:', layout='wide')
+st.set_page_config(page_title='TribeCalledRed TurtleShell Info Hub', page_icon=':bar_chart:', layout='wide')
 
 # Title
-st.title('7 Mountain Trust Cross Chain Monitoring Tool')
+st.title('Unofficial TribeCalledRed TurtleShell Info Hub')
 
 # Content
 c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14 = st.columns(14)
@@ -27,21 +27,7 @@ c14.image(Image.open('images/axelar-logo.png'))
 
 st.write(
     """
-    Seven Mountain Trust Analytics Tool for Users is here for your viewing needs and pleasure.
-
-    The crypto industry continues to progress and its development has never stopped. Contributors
-    of each blockchain keep developing each segment of the industry and the whole crypto ecosystem.
-    This tool is designed to allow viewers to journey into the world of crypto ecosystems of some
-    of the major blockchains, and compare their performance.
-
-    This tool is designed and structured in multiple **Pages** that are accessible using the sidebar.
-    Each of these Pages addresses a different segment of the crypto industry. Within each segment
-    (Macro, Transfers, Swaps, NFTs, etc.) you are able to filter your desired blockchains to
-    narrow/expand the comparison. By selecting a single blockchain, you can observe a deep dive
-    into that particular network.
-
-    All values for amounts, prices, and volumes are in **U.S. dollars** and the time frequency of the
-    analysis was limited to the last **30 days**.
+This Token project for Art and Video Game asset token NFTs is for native american alpha testers at this time only.  If you did not register to be part of this process you should not be here!
     """
 )
 
@@ -60,16 +46,5 @@ st.write(
     the queries, and also the size of the raw data being too large, it was not feasible to cover data for a longer period,
     or by downloading the data and loading it from the repository itself. Therefore, the REST API was selected as the
     proper form of loading data for the time being.
-    """
-)
-
-st.subheader('Future Works')
-st.write(
-    """
-    This tool is a work in progress and will continue to be developed moving forward. Adding other blockchains,
-    more KPIs and metrics, optimizing the code in general, enhancing the UI/UX of the tool, and more importantly,
-    improving the data pipeline by utilizing [**Flipside ShroomDK**](https://sdk.flipsidecrypto.xyz/shroomdk) are
-    among the top priorities for the development of this app. Feel free to share your feedback, suggestions, and
-    also critics with me.
     """
 )
