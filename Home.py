@@ -24,8 +24,9 @@ c11.image(Image.open('images/gnosis-logo.png'))
 c12.image(Image.open('images/optimism-logo.png'))
 c13.image(Image.open('images/arbitrum-logo.png'))
 c14.image(Image.open('images/axelar-logo.png'))
-c15.image(Image.open('images/axelar-logo.png'))
 
+c16, = st.columns(1)
+c16.image(Image.open('images/axelar-logo.png'))
 
 st.write(
     """
