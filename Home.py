@@ -9,7 +9,7 @@ st.set_page_config(page_title='TribeCalledRed TurtleShell Info Hub', page_icon='
 st.title('Unofficial TribeCalledRed TurtleShell Info Hub')
 
 # Content
-c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14 = st.columns(14)
+c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15 = st.columns(15)
 c1.image(Image.open('images/ethereum-logo.png'))
 c2.image(Image.open('images/bsc-logo.png'))
 c3.image(Image.open('images/polygon-logo.png'))
@@ -24,7 +24,7 @@ c11.image(Image.open('images/gnosis-logo.png'))
 c12.image(Image.open('images/optimism-logo.png'))
 c13.image(Image.open('images/arbitrum-logo.png'))
 c14.image(Image.open('images/axelar-logo.png'))
-(Image.open('images/axelar-logo.png'))
+c15.image(Image.open('images/axelar-logo.png'))
 
 
 st.write(
