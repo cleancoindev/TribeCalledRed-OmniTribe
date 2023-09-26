@@ -27,7 +27,7 @@ c14.image(Image.open('images/axelar-logo.png'))
 
 c16, c17= st.columns(2)
 c16.image(Image.open('images/Screenshot - 8_21_2023 , 3_52_15 PM.png'))
-c17.image(Image.open('images/image_2023_08_11T03_03_29_891Z.png'))
+c17.image(Image.open('images/vanAllens.png'))
 
 
 st.write(
