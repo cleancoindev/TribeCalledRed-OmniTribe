@@ -24,6 +24,8 @@ c11.image(Image.open('images/gnosis-logo.png'))
 c12.image(Image.open('images/optimism-logo.png'))
 c13.image(Image.open('images/arbitrum-logo.png'))
 c14.image(Image.open('images/axelar-logo.png'))
+(Image.open('images/axelar-logo.png'))
+
 
 st.write(
     """
